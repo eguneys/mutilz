@@ -1,6 +1,14 @@
 # mutilz
 Utility math functions for graphics programming like random choices, smoothstep round etc.
 
+## Usage
+
+`yarn add mutilz`
+
+    import * as u from 'mutilz';
+
+    console.log(u.PI);
+
 _PI_ constant PI
 _TAU_ constant PI * 2.0
 
