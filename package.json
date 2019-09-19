@@ -1,6 +1,6 @@
 {
   "name": "mutilz",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Utility math functions for graphics programming like random choices, smoothstep round etc.",
   "keywords": [
     "utility",
