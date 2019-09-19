@@ -30,6 +30,10 @@ export function smoothstep(min, max, value) {
   return x*x*(3 - 2*x);
 };
 
+export function mix(x, y, a) {
+  return x * (1 - a) + y * a;
+}
+
 export function round(v, d = 100) {
   return Math.round(v * d) / d;
 }

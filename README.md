@@ -31,6 +31,8 @@ Input is in the form `[[item, weight], [item2, weight2]]`, where weight is betwe
 
 `smoothstep(min, max, value)` smoothstep value
 
+`mix(x, y, a)` mix x, y based on a
+
 `round(v, d = 100)` round value to `d` digits
 
 `map(n, start1, stop1, start2, stop2)` map value `n` from range `start1/stop1` to `start2/stop2`
