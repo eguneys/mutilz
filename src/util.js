@@ -25,6 +25,10 @@ export function usin(v) {
   return (Math.sin(v) + 1.0) / 2.0;
 }
 
+export function ucos(v) {
+  return (Math.cos(v) + 1.0) / 2.0;
+}
+
 export function smoothstep(min, max, value) {
   var x = Math.max(0, Math.min(1, (value-min)/(max-min)));
   return x*x*(3 - 2*x);
